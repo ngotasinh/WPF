@@ -1,0 +1,13 @@
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\bin\Debug\WpfApplication1.exe
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\bin\Debug\WpfApplication1.pdb
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\obj\Debug\StyleTemplate.csprojAssemblyReference.cache
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\obj\Debug\MainWindow.baml
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\obj\Debug\ReDicTemplate.baml
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\obj\Debug\App.baml
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\obj\Debug\MainWindow.g.cs
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\obj\Debug\App.g.cs
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\obj\Debug\WpfApplication1_MarkupCompile.cache
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\obj\Debug\WpfApplication1.g.resources
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\obj\Debug\StyleTemplate.csproj.CoreCompileInputs.cache
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\obj\Debug\WpfApplication1.exe
+D:\WPF\BaiHoc\StyleTemplate\StyleTemplate\StyleTemplate\obj\Debug\WpfApplication1.pdb

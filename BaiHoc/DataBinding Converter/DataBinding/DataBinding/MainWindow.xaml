@@ -1,0 +1,15 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:DataBinding"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="DataBinding.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <local:Converter x:Key="BooleanConvert" />
+    </Window.Resources>
+    <StackPanel Margin="30">
+        <CheckBox x:Name="checkBox" Margin="10" Content="Show Rectangle" IsChecked="True"></CheckBox>
+        <Rectangle Fill="#FF158B0A" Height="200" RadiusY="43" RadiusX="43"
+                   Visibility="{Binding IsChecked, ElementName=checkBox, UpdateSourceTrigger=PropertyChanged,Converter='{StaticResource BooleanConvert}'}"/>
+    </StackPanel>
+</Window>

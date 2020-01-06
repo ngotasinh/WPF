@@ -1,0 +1,15 @@
+D:\WPF\Test1\Test1\bin\Debug\Test1.exe.config
+D:\WPF\Test1\Test1\bin\Debug\Test1.exe
+D:\WPF\Test1\Test1\bin\Debug\Test1.pdb
+D:\WPF\Test1\Test1\obj\Debug\Test1.csprojAssemblyReference.cache
+D:\WPF\Test1\Test1\obj\Debug\MainWindow.g.cs
+D:\WPF\Test1\Test1\obj\Debug\App.g.cs
+D:\WPF\Test1\Test1\obj\Debug\Test1_MarkupCompile.cache
+D:\WPF\Test1\Test1\obj\Debug\Test1_MarkupCompile.lref
+D:\WPF\Test1\Test1\obj\Debug\MainWindow.baml
+D:\WPF\Test1\Test1\obj\Debug\Test1.g.resources
+D:\WPF\Test1\Test1\obj\Debug\Test1.Properties.Resources.resources
+D:\WPF\Test1\Test1\obj\Debug\Test1.csproj.GenerateResource.cache
+D:\WPF\Test1\Test1\obj\Debug\Test1.csproj.CoreCompileInputs.cache
+D:\WPF\Test1\Test1\obj\Debug\Test1.exe
+D:\WPF\Test1\Test1\obj\Debug\Test1.pdb

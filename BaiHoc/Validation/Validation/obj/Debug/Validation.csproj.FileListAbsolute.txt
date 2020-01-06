@@ -1,0 +1,14 @@
+C:\Users\Administrator\Downloads\Validation\Validation\bin\Debug\Validation.exe.config
+C:\Users\Administrator\Downloads\Validation\Validation\bin\Debug\Validation.exe
+C:\Users\Administrator\Downloads\Validation\Validation\bin\Debug\Validation.pdb
+C:\Users\Administrator\Downloads\Validation\Validation\obj\Debug\Validation.csprojAssemblyReference.cache
+C:\Users\Administrator\Downloads\Validation\Validation\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Downloads\Validation\Validation\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Downloads\Validation\Validation\obj\Debug\App.g.cs
+C:\Users\Administrator\Downloads\Validation\Validation\obj\Debug\Validation_MarkupCompile.cache
+C:\Users\Administrator\Downloads\Validation\Validation\obj\Debug\Validation.g.resources
+C:\Users\Administrator\Downloads\Validation\Validation\obj\Debug\Validation.Properties.Resources.resources
+C:\Users\Administrator\Downloads\Validation\Validation\obj\Debug\Validation.csproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\Validation\Validation\obj\Debug\Validation.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\Validation\Validation\obj\Debug\Validation.exe
+C:\Users\Administrator\Downloads\Validation\Validation\obj\Debug\Validation.pdb

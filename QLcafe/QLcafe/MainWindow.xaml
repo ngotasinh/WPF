@@ -1,0 +1,107 @@
+﻿<Window x:Class="QLcafe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QLcafe"
+        xmlns:uc="clr-namespace:QLcafe.UserControls"
+        mc:Ignorable="d"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        DataContext="{StaticResource MainVM}"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        
+        Name="mainWindow"
+        Title="Phần mềm quản lý Cafe" Height="600" Width="1080" >
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadedWindowCommand}" CommandParameter="{Binding ElementName=mainWindow}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Window.Resources>
+        <Storyboard x:Key="OpenMenu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="70"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="200"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="CloseMenu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="200"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="70"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpenMenu">
+            <BeginStoryboard Storyboard="{StaticResource OpenMenu}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
+            <BeginStoryboard Storyboard="{StaticResource CloseMenu}"/>
+        </EventTrigger>
+    </Window.Triggers>
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <uc:ControlBarUC Tag="{Binding Title, ElementName=mainWindow}"></uc:ControlBarUC>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid x:Name="GridMenu" Width="70" HorizontalAlignment="Left" Background="Blue">
+                    <Grid.Effect>
+                        <DropShadowEffect BlurRadius="2" ShadowDepth="1" Color="Blue"/>
+                    </Grid.Effect>
+                    <StackPanel>
+                        <Grid Height="50" Background="Blue" RenderTransformOrigin="0.5,0.5">
+
+                            <Grid.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Grid.RenderTransform>
+                            <Button x:Name="ButtonOpenMenu" Height="48" Width="50" Margin="10,2,10,0" HorizontalAlignment="Center" VerticalAlignment="Top"  Background="Blue" BorderBrush="{x:Null}" Foreground="White" Click="ButtonOpenMenu_Click">
+                                <materialDesign:PackIcon Kind="Menu" Width="30" Height="30"
+                                                         HorizontalAlignment="Center"/>
+                            </Button>
+                            <Button x:Name="ButtonCloseMenu" Visibility="Collapsed" Height="50" Width="50" Margin="2" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="ButtonCloseMenu_Click">
+                                <materialDesign:PackIcon Kind="ArrowLeft" Width="25" Height="25" />
+                            </Button>
+                        </Grid>
+                        <Grid HorizontalAlignment="Stretch" Background="Blue" >
+                            <ScrollViewer HorizontalAlignment="Stretch" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Grid.Row="1" Grid.ColumnSpan="2" >
+                                <StackPanel x:Name="Menu" Margin="10"/>
+                            </ScrollViewer>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+
+            </Grid>
+            <Grid Grid.Column="1" >
+                <WrapPanel x:Name="Table" Orientation="Horizontal">
+                    
+                </WrapPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
