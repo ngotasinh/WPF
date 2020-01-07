@@ -11,3 +11,6 @@ private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         string ID;
         ID = dataGridView1.SelectedCells[0].Value.ToString();
 }
+
+link: https://www.youtube.com/watch?v=Ydl9ALhQMpY
+https://www.youtube.com/watch?v=SDUt4y-H-nw
