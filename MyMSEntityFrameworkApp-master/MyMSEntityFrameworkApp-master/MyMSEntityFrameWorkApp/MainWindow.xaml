@@ -14,7 +14,7 @@
         <Label x:Name="Lable_Message" Content="{Binding Message}" ToolTip="Click to clear" VerticalAlignment="Top" Margin="32,19,43,0" Height="25" Background="#FF7A7A7A" MouseDown="Lable_Message_MouseDown" Opacity="0.745" FontWeight="Bold"/>
         <DataGrid x:Name="DataGrid_TableNames" ItemsSource="{Binding NameList}" AutoGenerateColumns="False" SelectionMode="Single" Margin="23,57,35,55" SelectionChanged="DataGrid_TableNames_SelectionChanged" PreviewKeyDown="DataGrid_TableNames_PreviewKeyDown" RowEditEnding="DataGrid_TableNames_RowEditEnding" AddingNewItem="DataGrid_TableNames_AddingNewItem">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Id" Binding="{Binding Path=Id}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Id"  Binding="{Binding Path=Id}" IsReadOnly="True"/>
                 <DataGridTextColumn Header="FirstName" Binding="{Binding Path=FirstName,NotifyOnTargetUpdated=True,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                 <DataGridTextColumn Header="LastName" Binding="{Binding Path=LastName,NotifyOnTargetUpdated=True,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                 <DataGridTextColumn Header="Age" Binding="{Binding Path=Age,NotifyOnTargetUpdated=True,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>

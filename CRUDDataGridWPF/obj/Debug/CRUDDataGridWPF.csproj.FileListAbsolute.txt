@@ -1,0 +1,31 @@
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\bin\Debug\CRUDDataGridWPF.exe
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\bin\Debug\CRUDDataGridWPF.pdb
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\ResolveAssemblyReference.cache
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\Window1.baml
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\Window1.g.cs
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\App.g.cs
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF_MarkupCompile.cache
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.g.resources
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.Properties.Resources.resources
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.csproj.GenerateResource.Cache
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.exe
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.pdb
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\bin\Debug\WPFToolkit.dll
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\bin\Debug\WPFToolkit.pdb
+E:\D Patra\My Programs\CRUDDataGridWPF\CRUDDataGridWPF\bin\Debug\CRUDDataGridWPF.exe.config
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\bin\Debug\CRUDDataGridWPF.exe.config
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\bin\Debug\CRUDDataGridWPF.exe
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\bin\Debug\CRUDDataGridWPF.pdb
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\bin\Debug\WPFToolkit.pdb
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.csprojAssemblyReference.cache
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\Window1.baml
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\Window1.g.cs
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\App.g.cs
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF_MarkupCompile.cache
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.g.resources
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.Properties.Resources.resources
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.csproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.csproj.CopyComplete
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.exe
+C:\Users\Administrator\Downloads\CRUDDataGridWPF\CRUDDataGridWPF\CRUDDataGridWPF\obj\Debug\CRUDDataGridWPF.pdb
